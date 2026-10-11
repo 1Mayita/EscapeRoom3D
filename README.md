@@ -3,10 +3,10 @@
 Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity.
 
 ## Integrantes
-- Maya Juana Mercado Ontiveros
-- Mayerli Quinteros Silva
-- Jose Manuel Yanarico Quispe
-- Hugo David Garcia Salazar
+- Rol B: Maya Juana Mercado Ontiveros
+- Rol A: Mayerli Quinteros Silva
+- Rol C: Jose Manuel Yanarico Quispe
+- Rol D: Hugo David Garcia Salazar
 ## Ramas
 - main
 - Dev
