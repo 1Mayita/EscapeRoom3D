@@ -7,15 +7,18 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         Move();
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Interaction key pressed");
+        }
     }
 
     private void Move()
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-
         Vector3 movement = new Vector3(h, 0f, v);
-
         transform.Translate(movement * speed * Time.deltaTime);
     }
 }
