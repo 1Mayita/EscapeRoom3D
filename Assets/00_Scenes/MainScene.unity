@@ -571,6 +571,7 @@ GameObject:
   - component: {fileID: 895849435}
   - component: {fileID: 895849434}
   - component: {fileID: 895849433}
+  - component: {fileID: 895849437}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -671,6 +672,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 1, y: 0.7, z: 0.6}
+--- !u!114 &895849437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895849432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d61a10b8b6529f41a3796531c2ffc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestController
+  unlocked: 0
+  animator: {fileID: 0}
 --- !u!1 &1758073781
 GameObject:
   m_ObjectHideFlags: 0
