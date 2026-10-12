@@ -6,7 +6,13 @@ public class OldDoorController : MonoBehaviour
 
     public void OpenDoor()
     {
-        isOpen = true;
-        Debug.Log("Puerta abierta (controlador antiguo).");
+       if (isOpen)
+       {
+           Debug.Log("La puerta ya está abierta.");
+           return;
+       }
+
+       isOpen = true;
+       Debug.Log("Puerta abierta (controlador antiguo).");
     }
 }
