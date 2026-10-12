@@ -683,7 +683,6 @@ GameObject:
   - component: {fileID: 1758073784}
   - component: {fileID: 1758073783}
   - component: {fileID: 1758073782}
-  - component: {fileID: 1758073787}
   - component: {fileID: 1758073786}
   m_Layer: 0
   m_Name: Door
@@ -798,19 +797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorController
   animator: {fileID: 0}
---- !u!114 &1758073787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758073781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8634e7b045c39834a977e7064c9c28cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OldDoorController
-  isOpen: 0
 --- !u!1001 &2059857259177657803
 PrefabInstance:
   m_ObjectHideFlags: 0
