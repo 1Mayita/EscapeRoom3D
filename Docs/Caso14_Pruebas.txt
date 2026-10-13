@@ -1,0 +1,1 @@
+Pruebas del juego: comprobar MainScene, movimiento, interaccion y Console sin errores.
