@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         // Punto de inicializacion del juego
-        Initialize(); // A: inicializar el juego al empezar
+        Initialize(); 
     }
 
     public void Initialize()
