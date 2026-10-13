@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Interaction key pressed");
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Debug.Log("Inventory key pressed");
+        }
     }
 
     private void Move()
