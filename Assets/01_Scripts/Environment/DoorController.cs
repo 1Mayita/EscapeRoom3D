@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class DoorController : MonoBehaviour, IInteractable
@@ -18,5 +19,18 @@ public class DoorController : MonoBehaviour, IInteractable
         }
 
         Debug.Log("Puerta abierta. ¡Escape completado!");
+    }
+
+    [ContextMenu("Probar puerta SIN llave")]
+    private void TestWithoutKey()
+    {
+        Interact();
+    }
+
+    [ContextMenu("Probar puerta CON llave")]
+    private void TestWithKey()
+    {
+        GameManager.Instance.ObtainKey();
+        Interact();
     }
 }
