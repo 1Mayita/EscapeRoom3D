@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         // Punto de inicializacion del juego
+        this.Initialize(); // B: preparar el estado del juego
     }
 
     public void Initialize()
