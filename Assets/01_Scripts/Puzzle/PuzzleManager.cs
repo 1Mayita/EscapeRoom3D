@@ -9,7 +9,7 @@ public class PuzzleManager : MonoBehaviour
     public bool ValidateCode(string code)
     {
         attempts++;
-        bool valid = code == correctCode;
+        bool valid = code != null && code.Trim() == correctCode;
 
         if (valid)
         {
@@ -38,5 +38,11 @@ public class PuzzleManager : MonoBehaviour
     private void TestWrongCode()
     {
         ValidateCode("0000");
+    }
+
+    [ContextMenu("Probar codigo con espacios")]
+    private void TestSpacesCode()
+    {
+        ValidateCode(" 1234 ");
     }
 }
