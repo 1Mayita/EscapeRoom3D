@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movimiento")]
+    [Tooltip("Velocidad de movimiento del jugador")]
     public float speed = 5f;
 
     private void Update()
@@ -12,6 +14,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("Interaction key pressed");
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("Reset key pressed");
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Debug.Log("Inventory key pressed");
         }
     }
 

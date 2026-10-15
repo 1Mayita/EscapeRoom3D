@@ -23,3 +23,7 @@ Explorar una habitación, resolver un código, abrir un cofre, obtener una llave
 - Render Pipeline: URP
 - Control de versiones: Git + GitHub + Visual Studio Code
 - Docente: Erick Salomon Cespedes Gamarra
+## Controles
+- WASD / Flechas: mover al jugador
+- E: interactuar con objetos
+- Puerta: requiere la llave para abrirse.
