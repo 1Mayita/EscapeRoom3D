@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
 {
+    [Header("Puzzle")]
     [SerializeField] private string correctCode = "1234";
     [SerializeField] private ChestController chest;
     private int attempts;
