@@ -1,0 +1,6 @@
+﻿CASO 19 - PRUEBAS DEL PUZZLE
+1. Probar el codigo correcto 1234.
+2. Probar el codigo incorrecto 0000.
+3. Probar un codigo con espacios al principio y al final.
+4. Comprobar que el cofre se desbloquee.
+5. Verificar que Unity no tenga errores rojos.

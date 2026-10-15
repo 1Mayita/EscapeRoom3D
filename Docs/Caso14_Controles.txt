@@ -1,0 +1,1 @@
+Controles del juego: WASD para movimiento y E para interactuar.
