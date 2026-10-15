@@ -1,4 +1,4 @@
 ﻿CASO 19 - PISTAS DEL PUZZLE
 Pista 1: El codigo contiene cuatro digitos.
-Pista 2: La combinacion correcta es 1234.
+Pista 2: Busca una secuencia sencilla de numeros en orden ascendente.
 El jugador debe introducir el codigo para desbloquear el cofre.
